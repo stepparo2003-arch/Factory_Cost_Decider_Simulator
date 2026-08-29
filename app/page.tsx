@@ -26,7 +26,7 @@ const QUESTIONS: Question[] = [
     context: 'The market price of your core material has jumped 60%, while the weighted-average (WA) unit cost has risen only 22%. The customer wants the old price locked in for three months.',
     signal: 'The input price is moving faster than cost can flow through opening WIP.',
     weight: 15,
-    seconds: 30,
+    seconds: 40,
     options: [
       { id: 'a', label: 'Sign. The reported cost still supports the current margin.', points: 0, axes: [1, 0, 0, 0, 0] },
       { id: 'b', label: 'Raise the selling price by the full 60% immediately.', points: 6, axes: [1, 2, 0, 0, 3] },
@@ -40,7 +40,7 @@ const QUESTIONS: Question[] = [
     context: 'Spot material prices have fallen for several weeks, but opening WIP keeps the reported unit cost high. Sales says the demand dip may be temporary.',
     signal: 'A stale high cost can make a profitable product look uncompetitive.',
     weight: 20,
-    seconds: 30,
+    seconds: 40,
     options: [
       { id: 'a', label: 'Cut every production line to protect the reported margin.', points: 1, axes: [0, 0, 1, 0, 0] },
       { id: 'b', label: 'Hold the old plan until the reported cost catches up.', points: 5, axes: [1, 0, 2, 1, 1] },
@@ -54,7 +54,7 @@ const QUESTIONS: Question[] = [
     context: 'Core SKU shows a $100 reported unit margin and needs 4 bottleneck hours. Light SKU shows $55 and needs 2 hours. At replacement cost, their contributions are $80 and $70.',
     signal: 'Core: $80 ÷ 4h = $20/h · Light: $70 ÷ 2h = $35/h',
     weight: 25,
-    seconds: 40,
+    seconds: 50,
     options: [
       { id: 'a', label: 'Prioritise Core because its unit margin is higher.', points: 4, axes: [1, 0, 1, 0, 2] },
       { id: 'b', label: 'Prioritise Light because contribution per bottleneck hour is higher.', points: 25, axes: [4, 2, 10, 3, 6] },
@@ -68,7 +68,7 @@ const QUESTIONS: Question[] = [
     context: 'WA remains the adopted financial-reporting method. You now need a weekly operating protocol that can withstand input-price volatility.',
     signal: 'Select every rule you should approve. Incorrect selections deduct points.',
     weight: 40,
-    seconds: 50,
+    seconds: 60,
     multiple: true,
     instruction: 'MULTI-SELECT · CHOOSE EVERY VALID RULE',
     options: [

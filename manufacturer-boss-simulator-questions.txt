@@ -1,0 +1,89 @@
+MANUFACTURER OWNER SIMULATOR
+Questions and Options
+=====================
+
+QUESTION 1 — PRICE SIGNAL
+Type: Single choice
+Time limit: 40 seconds
+Question value: 15 points
+
+Question:
+A key account wants the old price. Do you sign?
+
+Scenario:
+The market price of your core material has jumped 60%, while the weighted-average (WA) unit cost has risen only 22%. The customer wants the old price locked in for three months.
+
+Live signal:
+The input price is moving faster than cost can flow through opening WIP.
+
+Options:
+A. Sign. The reported cost still supports the current margin.
+B. Raise the selling price by the full 60% immediately.
+C. Reconcile WA with current replacement cost, then test the market ceiling and pass-through room.
+D. Switch to FIFO and treat FIFO as a forward-looking cost.
+
+
+QUESTION 2 — VOLUME RESPONSE
+Type: Single choice
+Time limit: 40 seconds
+Question value: 20 points
+
+Question:
+Input prices are falling. Do you cut output too?
+
+Scenario:
+Spot material prices have fallen for several weeks, but opening WIP keeps the reported unit cost high. Sales says the demand dip may be temporary.
+
+Live signal:
+A stale high cost can make a profitable product look uncompetitive.
+
+Options:
+A. Cut every production line to protect the reported margin.
+B. Hold the old plan until the reported cost catches up.
+C. Refresh run-rate contribution and demand scenarios, then adjust volume by product.
+D. Discount every product to buy back volume and ignore cost.
+
+
+QUESTION 3 — CONSTRAINED MIX
+Type: Single choice
+Time limit: 50 seconds
+Question value: 25 points
+
+Question:
+Only one product gets the bottleneck hours.
+
+Scenario:
+Core SKU shows a $100 reported unit margin and needs 4 bottleneck hours. Light SKU shows $55 and needs 2 hours. At replacement cost, their contributions are $80 and $70.
+
+Live signal:
+Core: $80 ÷ 4h = $20/h · Light: $70 ÷ 2h = $35/h
+
+Options:
+A. Prioritise Core because its unit margin is higher.
+B. Prioritise Light because contribution per bottleneck hour is higher.
+C. Split the hours evenly to avoid making the wrong call.
+D. Prioritise whichever product sells the most units.
+
+
+QUESTION 4 — GOVERNANCE DESIGN
+Type: Multiple choice
+Time limit: 60 seconds
+Question value: 40 points
+Instruction: Choose every valid rule. Incorrect selections deduct points.
+
+Question:
+Final call: which management rules do you approve?
+
+Scenario:
+WA remains the adopted financial-reporting method. You now need a weekly operating protocol that can withstand input-price volatility.
+
+Live signal:
+Select every rule you should approve. Incorrect selections deduct points.
+
+Options:
+A. Keep the adopted WA method for reporting, with consistency, reconciliation and an audit trail.
+B. Use current replacement cost for short-term pricing, with a market ceiling and pass-through test.
+C. Use incremental relevant cost and contribution per scarce resource for constrained product mix.
+D. Bridge reported cost to economic cost in reviews, separating timing from operating performance.
+E. Use one unit cost for every decision to eliminate debate over cost lenses.
+F. Switch accounting methods whenever input prices move materially.
