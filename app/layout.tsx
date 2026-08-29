@@ -13,17 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://manufacturer-boss-simulator.stepparo2003.chatgpt.site'),
   title: '制造商老板决策模拟器',
   description: '在原材料价格波动中完成四次限时决策，获得你的经营能力雷达图。',
   openGraph: {
     title: '制造商老板决策模拟器',
     description: '四次限时决策，守住你的工厂。',
     type: 'website',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: '制造商老板决策模拟器' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: '制造商老板决策模拟器',
     description: '四次限时决策，守住你的工厂。',
+    images: ['/og.png'],
   },
 };
 
