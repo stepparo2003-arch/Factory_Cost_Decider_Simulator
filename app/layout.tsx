@@ -14,18 +14,18 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://manufacturer-boss-simulator.stepparo2003.chatgpt.site'),
-  title: '制造商老板决策模拟器',
-  description: '在原材料价格波动中完成四次限时决策，获得你的经营能力雷达图。',
+  title: 'Manufacturer Owner Decision Simulator',
+  description: 'Make four timed decisions under input-price volatility and reveal your management radar.',
   openGraph: {
-    title: '制造商老板决策模拟器',
-    description: '四次限时决策，守住你的工厂。',
+    title: 'Manufacturer Owner Decision Simulator',
+    description: 'Four timed decisions. One factory to protect.',
     type: 'website',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: '制造商老板决策模拟器' }],
+    images: [{ url: '/og.png', width: 1983, height: 793, alt: 'We need you to decide for the factory' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '制造商老板决策模拟器',
-    description: '四次限时决策，守住你的工厂。',
+    title: 'Manufacturer Owner Decision Simulator',
+    description: 'Four timed decisions. One factory to protect.',
     images: ['/og.png'],
   },
 };
@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
